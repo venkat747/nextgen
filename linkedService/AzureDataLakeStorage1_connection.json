@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeStorage1_connection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://csgc3636551e5ecx41fcxbea.dfs.core.windows.net"
+		}
+	}
+}
