@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfvalafactory"
+		},
+		"AzureSqlDatabase1_connection_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connection_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_connection_properties_typeProperties_url": {
+			"value": "https://csgc3636551e5ecx41fcxbea.dfs.core.windows.net"
+		},
+		"AzureDataLakeStore1_connection_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://lakestoredata.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStore1_connection_properties_typeProperties_tenant": {
+			"value": "63ce7d59-2f3e-42cd-a8cc-be764cff5eb6"
+		},
+		"AzureDataLakeStore1_connection_properties_typeProperties_subscriptionId": {
+			"value": "c3636551-e5ec-41fc-bea7-4750d9b17835"
+		},
+		"AzureDataLakeStore1_connection_properties_typeProperties_resourceGroupName": {
+			"value": "BasicRG"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
